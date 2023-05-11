@@ -35,6 +35,19 @@ public class Calculator {
 
     }
 
+    public static void addition() {
+        int num1, num2, result;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Addition");
+
+        System.out.println("Enter First Number");
+        num1 = input.nextInt();
+        System.out.println("Enter Second Number");
+        num2 = input.nextInt();
+        result = num1 + num2;
+        input.close();
+        System.out.println(" Sum = " + result);
+    }
 
 
 
