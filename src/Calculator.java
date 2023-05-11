@@ -78,6 +78,19 @@ public class Calculator {
         System.out.println("Result = " + result);
     }
 
+    public  static void multiplication() {
+        int num1, num2, result;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Multiplication");
+        System.out.println("Enter the First Number");
+        num1 = input.nextInt();
+        System.out.println("Enter the Second Number");
+        num2 = input.nextInt();
+        result = num1 * num2;
+        input.close();
+        System.out.println("Result = " + result);
+    }
+
 
 
 
