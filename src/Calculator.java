@@ -63,6 +63,21 @@ public class Calculator {
         System.out.println("Result = " + result);
     }
 
+    public static void division() {
+        int num1, num2, result;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Division");
+        System.out.println("Enter first Number");
+        num1 = input.nextInt();
+        System.out.println("Enter the second number");
+        num2 = input.nextInt();
+
+        result = num2 / num1;
+        input.close();
+        System.out.println("Result = " + result);
+    }
+
 
 
 
